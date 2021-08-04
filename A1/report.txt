@@ -1,0 +1,3 @@
+Instead of allocating as soon as a process arrives. The improvement allocates processes when a CPU is empty.
+The largest duration process is also allocated first being a application of the Knapsack problem.
+Parallel processes are not split first and only split if no processes are unallocated.
